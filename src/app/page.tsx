@@ -67,13 +67,6 @@ function PageHome() {
           <SectionGridMoreExplore />
         </div>
 
-        {/* <SectionSliderProductCard
-          heading="Best Sellers"
-          subHeading="Best selling of the month"
-        /> */}
-
-        {/* <SectionPromo2 /> */}
-
         {/* <SectionSliderLargeProduct cardStyle="style2" /> */}
 
         {/* <SectionSliderCategories /> */}
