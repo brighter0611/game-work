@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -17,7 +17,7 @@ export default function ToggleTheme() {
 
   return (
     <>
-      {theme == "light" ? (
+      {/* {theme == "light" ? (
         <Button className="bg-dark" variant="ghost" size="icon" onClick={() => setTheme("dark")}>
           <MoonIcon className="w-5 h-5" />
         </Button>
@@ -25,7 +25,7 @@ export default function ToggleTheme() {
         <Button className="bg-dark" variant="ghost" size="icon" onClick={() => setTheme("light")}>
           <SunIcon className="w-5 h-5" />
         </Button>
-      )}
+      )} */}
     </>
   );
 }

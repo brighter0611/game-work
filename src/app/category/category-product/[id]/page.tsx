@@ -3,7 +3,7 @@
 
 import { get_product_by_category_id } from '@/Services/Admin/product'
 import Loading from '@/app/loading'
-import ProductCard from '@/components/ProductCard'
+import ProductCard from '@/components/ProductCard1'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { toast , ToastContainer } from 'react-toastify'

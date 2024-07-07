@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import ProductCard from './ProductCard'
+import ProductCard from './ProductCard1'
 import {  useSelector } from 'react-redux'
 
 import { RootState } from '@/Store/store'

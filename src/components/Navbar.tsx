@@ -42,8 +42,8 @@ export default function Navbar() {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow text-black bg-gray-50 rounded-box w-52">
                         <li><Link href={'/'}>Homepage</Link></li>
-                        <li><Link href={'/shop'}>Shop</Link></li>
-                        <li><Link href={"/order/view-orders"}>My Orders</Link></li>
+                        <li><Link href={'/'}>Shop</Link></li>
+                        <li><Link href={"/"}>My Orders</Link></li>
                         <li><Link href={"/userdashboard"}>Dashboard</Link></li>
                     </ul>
                 </div>
@@ -56,9 +56,9 @@ export default function Navbar() {
                         user ?
                         <div className='flex items-center justify-end  min-h-full'>
                          <button onClick={handleLogout} className='btn text-white mx-2'>logout</button>
-                         <button onClick={() => router.push("/order/create-order")} className='btn btn-circle  mx-2'><FaCartArrowDown className='text-white text-xl' /></button>
-                         <button onClick={() => router.push("/bookmark")} className='btn btn-circle  mx-2'><MdFavorite className='text-white text-xl' /></button>
-                         <button onClick={() => router.push("/order/view-orders")} className='btn btn-circle  mx-2'><CiDeliveryTruck className='text-white text-xl' /></button>
+                         <button onClick={() => router.push("/")} className='btn btn-circle  mx-2'><FaCartArrowDown className='text-white text-xl' /></button>
+                         <button onClick={() => router.push("/")} className='btn btn-circle  mx-2'><MdFavorite className='text-white text-xl' /></button>
+                         <button onClick={() => router.push("/")} className='btn btn-circle  mx-2'><CiDeliveryTruck className='text-white text-xl' /></button>
                          
                         </div>
                             :
