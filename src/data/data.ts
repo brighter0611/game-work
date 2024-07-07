@@ -111,8 +111,8 @@ const DEMO_VARIANT_COLORS: ProductVariant[] = [
 export const PRODUCTS: Product[] = [
   {
     id: 1,
-    name: "Rey Nylon Backpack",
-    description: "Brown cockroach wings",
+    name: "PES 2024",
+    description: "Awesome",
     price: 74,
     image: productImgs[16],
     category: "Category 1",
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 2,
-    name: 'Round Buckle 1" Belt',
+    name: 'FC 2024',
     description: "Classic green",
     price: 68,
     image: productImgs[1],
@@ -143,8 +143,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 3,
-    name: "Waffle Knit Beanie",
-    description: "New blue aqua",
+    name: "Terrible",
+    description: "Dark pink 2023",
     price: 132,
     image: productImgs[15],
     category: "Category 1",
@@ -159,7 +159,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 4,
-    name: "Travel Pet Carrier",
+    name: "Terrible",
     description: "Dark pink 2023",
     price: 28,
     image: productImgs[3],
@@ -174,8 +174,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 5,
-    name: "Leather Gloves",
-    description: "Perfect mint green",
+    name: "PES 2024",
+    description: "Perfect Game",
     price: 42,
     image: productImgs[4],
     category: "Category 1",
@@ -190,7 +190,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 6,
-    name: "Hoodie Sweatshirt",
+    name: "Car Race",
     description: "New design 2023",
     price: 30,
     image: productImgs[5],
@@ -204,8 +204,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 7,
-    name: "Wool Cashmere Jacket",
-    description: "Matte black",
+    name: "God War",
+    description: "Interesting",
     price: 12,
     image: productImgs[8],
     category: "Category 1",
@@ -219,8 +219,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 8,
-    name: "Ella Leather Tote",
-    description: "Cream pink",
+    name: "Ghost",
+    description: "Fantastic",
     price: 145,
     image: productImgs[7],
     category: "Category 1",

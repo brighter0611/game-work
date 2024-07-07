@@ -67,16 +67,16 @@ function PageHome() {
           <SectionGridMoreExplore />
         </div>
 
-        <SectionSliderProductCard
+        {/* <SectionSliderProductCard
           heading="Best Sellers"
           subHeading="Best selling of the month"
-        />
+        /> */}
 
-        <SectionPromo2 />
+        {/* <SectionPromo2 /> */}
 
-        <SectionSliderLargeProduct cardStyle="style2" />
+        {/* <SectionSliderLargeProduct cardStyle="style2" /> */}
 
-        <SectionSliderCategories />
+        {/* <SectionSliderCategories /> */}
 
         <SectionPromo3 />
 
