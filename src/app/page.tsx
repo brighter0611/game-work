@@ -41,6 +41,17 @@ function PageHome() {
 
   return (
     <div className="nc-PageHome relative overflow-hidden">
+      <div>
+        <ul className="flex justify-center gap-4 py-4">
+          <li className="hover:text-green-400"><a href="/epic-games">Epic Games</a></li>
+          <li className="hover:text-green-400"><a href="/Jogos Online PC">Jogos Online PC</a></li>
+          <li className="hover:text-green-400"><a href="/Microsoft Store">Microsoft Store</a></li>
+          <li className="hover:text-green-400"><a href="/Origin">Origin</a></li>
+          <li className="hover:text-green-400"><a href="/Pre-Venda">Pre-Venda</a></li>
+          <li className="hover:text-green-400"><a href="/Steam">Steam</a></li>
+          <li className="hover:text-green-400"><a href="/Ubsoft">Ubsoft</a></li>
+        </ul>
+      </div>
       <SectionHero2 />
       <div className="mt-24 lg:mt-32">
         <DiscoverMoreSlider />
