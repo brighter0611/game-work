@@ -20,7 +20,6 @@ interface userData {
     name: String
 }
 
-
 export default function Page() {
     const Router = useRouter();
     const dispatch = useDispatch();
