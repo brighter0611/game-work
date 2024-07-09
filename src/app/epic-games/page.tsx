@@ -16,7 +16,6 @@ import { add_to_cart } from '@/Services/common/cart'
 import { setUserData } from '@/utils/UserDataSlice'
 import { bookmark_product } from '@/Services/common/bookmark'
 
-
 interface pageParam {
     id: string
 }
@@ -45,8 +44,9 @@ type User = {
     _id: string,
 }
 
-export default function Page({ params, searchParams }: { params: pageParam, searchParams: any }) {
-    const dispatch = useDispatch();
+function EpicGames () {
+
+            const dispatch = useDispatch();
     const [prodData, setprodData] = useState<ProductData | undefined>(undefined);
     const user = useSelector((state: RootState) => state.User.userData) as User | null
     const { data, isLoading } = useSWR('/gettingProductbyID', () => get_product_by_id(params.id))
@@ -149,4 +149,7 @@ export default function Page({ params, searchParams }: { params: pageParam, sear
             <ToastContainer />
         </div>
     )
-}
+
+} 
+
+export default EpicGames;

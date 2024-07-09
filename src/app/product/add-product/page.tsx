@@ -32,13 +32,6 @@ type Inputs = {
 interface loaderType {
     loader: Boolean
 }
-
-
-
-
-
-
-
 const uploadImages = async (file: File) => {
     const createFileName = () => {
         const timestamp = Date.now();
