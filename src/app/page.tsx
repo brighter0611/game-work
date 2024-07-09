@@ -45,13 +45,27 @@ function PageHome() {
     <div className="nc-PageHome relative overflow-hidden">
       <div>
         <ul className="flex justify-center gap-8 py-4">
-          <li className="hover:text-green-400"><a href="/epic-games">Epic Games</a></li>
-          <li className="hover:text-green-400"><a href="/aluguel-de-contas">Jogos Online PC</a></li>
-          <li className="hover:text-green-400"><a href="/microsoft-store">Microsoft Store</a></li>
-          <li className="hover:text-green-400"><a href="/origin">Origin</a></li>
-          <li className="hover:text-green-400"><a href="/pre-Venda">Pre-Venda</a></li>
-          <li className="hover:text-green-400"><a href="/steam">Steam</a></li>
-          <li className="hover:text-green-400"><a href="/uplay">Ubsoft</a></li>
+          <li className="hover:text-green-400">
+            <a href="/epic-games">Epic Games</a>
+          </li>
+          <li className="hover:text-green-400">
+            <a href="/aluguel-de-contas">Jogos Online PC</a>
+          </li>
+          <li className="hover:text-green-400">
+            <a href="/microsoft-store">Microsoft Store</a>
+          </li>
+          <li className="hover:text-green-400">
+            <a href="/origin">Origin</a>
+          </li>
+          <li className="hover:text-green-400">
+            <a href="/pre-Venda">Pre-Venda</a>
+          </li>
+          <li className="hover:text-green-400">
+            <a href="/steam">Steam</a>
+          </li>
+          <li className="hover:text-green-400">
+            <a href="/uplay">Ubsoft</a>
+          </li>
         </ul>
       </div>
       <SectionHero2 />
