@@ -20,6 +20,7 @@ import { add_new_product } from '@/Services/Admin/product';
 type Inputs = {
     name: string,
     description: string,
+    requirement: string,
     slug: string,
     feature : Boolean,
     price : Number,
@@ -225,6 +226,14 @@ export default function AddProduct() {
                                 </label>
                                 <input  {...register("quantity", { required: true })} type="number" placeholder="Type here" className="input input-bordered w-full" />
                                 {errors.slug && <span className='text-red-500 text-xs mt-2'>This field is required</span>}
+
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">System Requirement</span>
+                                </label>
+                                <textarea  {...register("requirement", { required: true })} className="textarea textarea-bordered h-24" placeholder="Requirement"></textarea>
+                                {errors.description && <span className='text-red-500 text-xs mt-2'>This field is required</span>}
 
                             </div>
                             <div className="form-control">

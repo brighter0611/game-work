@@ -5,6 +5,7 @@ import SectionHowItWork from "@/components/SectionHowItWork/SectionHowItWork";
 import BackgroundSection from "@/components/BackgroundSection/BackgroundSection";
 import SectionPromo1 from "@/components/SectionPromo1";
 import SectionHero2 from "@/components/SectionHero/SectionHero2";
+import SectionHero4 from "@/components/SectionHero/SectionHero4";
 import SectionSliderLargeProduct from "@/components/SectionSliderLargeProduct";
 import SectionSliderProductCard from "@/components/SectionSliderProductCard";
 import DiscoverMoreSlider from "@/components/DiscoverMoreSlider";
@@ -21,6 +22,7 @@ import { setUserData } from '@/utils/UserDataSlice'
 import { setCategoryData, setCatLoading, setProdLoading, setProductData } from '@/utils/AdminSlice'
 import SectionGridFeatureItems from "@/components/SectionGridFeatureItems";
 import FeaturedProduct from "@/components/FeaturedProduct";
+import AutoCarousel from "@/components/AutoCarousel";
 
 function PageHome() {
   const dispatch = useDispatch();
@@ -42,17 +44,19 @@ function PageHome() {
   return (
     <div className="nc-PageHome relative overflow-hidden">
       <div>
-        <ul className="flex justify-center gap-4 py-4">
+        <ul className="flex justify-center gap-8 py-4">
           <li className="hover:text-green-400"><a href="/epic-games">Epic Games</a></li>
-          <li className="hover:text-green-400"><a href="/Jogos Online PC">Jogos Online PC</a></li>
-          <li className="hover:text-green-400"><a href="/Microsoft Store">Microsoft Store</a></li>
-          <li className="hover:text-green-400"><a href="/Origin">Origin</a></li>
-          <li className="hover:text-green-400"><a href="/Pre-Venda">Pre-Venda</a></li>
-          <li className="hover:text-green-400"><a href="/Steam">Steam</a></li>
-          <li className="hover:text-green-400"><a href="/Ubsoft">Ubsoft</a></li>
+          <li className="hover:text-green-400"><a href="/aluguel-de-contas">Jogos Online PC</a></li>
+          <li className="hover:text-green-400"><a href="/microsoft-store">Microsoft Store</a></li>
+          <li className="hover:text-green-400"><a href="/origin">Origin</a></li>
+          <li className="hover:text-green-400"><a href="/pre-Venda">Pre-Venda</a></li>
+          <li className="hover:text-green-400"><a href="/steam">Steam</a></li>
+          <li className="hover:text-green-400"><a href="/uplay">Ubsoft</a></li>
         </ul>
       </div>
       <SectionHero2 />
+      <AutoCarousel />
+      {/* <SectionHero4 /> */}
       <div className="mt-24 lg:mt-32">
         <DiscoverMoreSlider />
       </div>
