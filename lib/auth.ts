@@ -74,7 +74,7 @@ export const config = {
       return session;
     },
   },
-  secret: process.env.AUTH_SECRET,
+  secret: process.env.NEXT_PUBLIC_AUTH_SECRET,
 };
 
 export const {
