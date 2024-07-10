@@ -71,7 +71,11 @@ const Menu = () => {
                     <Link href='/admin/dashboard'>Admin Dashboard</Link>
                   </li>
                 )}
-
+                {!session.user.isAdmin && (
+                   <li onClick={handleClick}>
+                   <Link href='/search'>User Dashboard</Link>
+                 </li>
+                )}
                 <li onClick={handleClick}>
                   <Link href='/order-history'>Order history </Link>
                 </li>

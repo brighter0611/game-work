@@ -37,7 +37,7 @@ const Categories = () => {
         <Overlay category='Games' />
       </Link>
       <Link
-        href='/search?category=Handbags'
+        href='/search?category=Origin'
         className='group relative col-span-2 overflow-hidden'
       >
         <Image
