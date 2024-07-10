@@ -67,6 +67,7 @@ export const config = {
       return session;
     },
   },
+  secret: process.env.NEXTAUTH_SECRET,
 };
 
 export const {
