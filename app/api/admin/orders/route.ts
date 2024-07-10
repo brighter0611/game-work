@@ -14,7 +14,7 @@ export const GET = auth(async (req: any) => {
   await dbConnect();
   const orders = await OrderModel.find()
     .sort({ createdAt: -1 })
-    // get the name of user
+
     .populate('user', 'name');
 
   return Response.json(orders);

@@ -16,7 +16,6 @@ const Categories = () => {
           width={500}
           height={500}
           className='h-full w-full object-cover'
-          // placeholder='blur'
           loading='lazy'
         />
         <Overlay category='Games' />
@@ -31,7 +30,6 @@ const Categories = () => {
           width={500}
           height={500}
           className='h-full w-full object-cover'
-          // placeholder='blur'
           loading='lazy'
         />
         <Overlay category='Games' />
@@ -46,7 +44,6 @@ const Categories = () => {
           width={500}
           height={500}
           className='h-full w-full object-cover'
-          // placeholder='blur'
           loading='lazy'
         />
         <Overlay category='Games' />

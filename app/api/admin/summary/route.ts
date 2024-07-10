@@ -19,7 +19,6 @@ export const GET = auth(async (...request: any) => {
     {
       $group: {
         _id: null,
-        // sum calculate total price of all orders
         sales: { $sum: '$totalPrice' },
       },
     },
