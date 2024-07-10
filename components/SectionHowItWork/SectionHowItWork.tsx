@@ -1,8 +1,10 @@
 "use client"
-import React, { FC } from "react";
-import NcImage from "@/shared/NcImage/NcImage";
-import Badge from "@/shared/Badge/Badge";
 import Image from "next/image";
+import React, { FC } from "react";
+
+import Badge from "@/shared/Badge/Badge";
+import NcImage from "@/shared/NcImage/NcImage";
+
 
 export interface SectionHowItWorkProps {
   className?: string;

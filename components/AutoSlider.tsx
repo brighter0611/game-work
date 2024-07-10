@@ -1,7 +1,9 @@
 "use client"
+
+import Image from 'next/image';
 import React from 'react';
 import Slider from 'react-slick';
-import Image from 'next/image';
+
 
 const AutoSlider: React.FC = () => {
   const settings = {

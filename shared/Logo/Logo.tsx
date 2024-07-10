@@ -1,7 +1,7 @@
 "use client"
-import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+// import Link from "next/link";
+import React from "react";
 
 export interface LogoProps {
   img?: string;
@@ -15,7 +15,7 @@ const Logo: React.FC<LogoProps> = ({
   className = "flex-shrink-0",
 }) => {
   return (
-    <Link
+    <a
       href="/"
       className={`ttnc-logo inline-block text-slate-600 ${className}`}
     >
@@ -47,7 +47,7 @@ const Logo: React.FC<LogoProps> = ({
           height={200}
         />
       )}
-    </Link>
+    </a>
   );
 };
 

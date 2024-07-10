@@ -3,9 +3,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getPlaiceholder } from 'plaiceholder';
 
-import ReadMore from '@/components/readMore/ReadMore';
+
 import AddToCart from '@/components/products/AddToCart';
 import { Rating } from '@/components/products/Rating';
+import ReadMore from '@/components/readMore/ReadMore';
 import productService from '@/lib/services/productService';
 import { convertDocToObj } from '@/lib/utils';
 

@@ -1,6 +1,6 @@
-import React, { FC } from "react";
+"use client"
 import Image, { ImageProps } from "next/image";
-
+import React, { FC } from "react";
 export interface NcImageProps extends Omit<ImageProps, "alt"> {
   containerClassName?: string;
   alt?: string;

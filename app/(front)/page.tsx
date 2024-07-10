@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import { Suspense } from 'react';
 
+
+import AutoCarousel from '@/components/AutoCarousel';
+import AutoSlider from '@/components/AutoSlider';
 import Carousel, { CarouselSkeleton } from '@/components/carousel/carousel';
 import Categories from '@/components/categories/Categories';
 import Icons from '@/components/icons/Icons';
@@ -9,11 +12,10 @@ import ProductItems, {
 } from '@/components/products/ProductItems';
 import ReadMore from '@/components/readMore/ReadMore';
 import Text from '@/components/readMore/Text';
-import Slider from '@/components/slider/Slider';
-import SectionPromo1 from "@/components/SectionPromo1";
-import AutoCarousel from '@/components/AutoCarousel';
-import AutoSlider from '@/components/AutoSlider';
 import SectionHowItWork from "@/components/SectionHowItWork/SectionHowItWork";
+import SectionPromo1 from "@/components/SectionPromo";
+import Slider from '@/components/slider/Slider';
+
 
 export const metadata: Metadata = {
   title: process.env.NEXT_PUBLIC_APP_NAME || 'Fullstack Next.js Store',

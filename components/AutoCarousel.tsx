@@ -1,7 +1,7 @@
 "use client"
+import Image from 'next/image';
 import React from 'react';
 import Slider from 'react-slick';
-import Image from 'next/image';
 
 const AutoCarousel: React.FC = () => {
   const settings = {
