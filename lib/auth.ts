@@ -1,12 +1,18 @@
 import bcrypt from 'bcryptjs';
 import NextAuth from 'next-auth';
+import Providers from 'next-auth/providers';
 import CredentialsProvider from 'next-auth/providers/credentials';
+import GitHubProvider from 'next-auth/providers/github';
 
 import dbConnect from './dbConnect';
 import UserModel from './models/UserModel';
 
 export const config = {
   providers: [
+    GitHubProvider({
+      clientId: process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID,
+      clientSecret: process.env.NEXT_PUBLIC_GITHUB_CLIENT_SECRET,
+    }),
     CredentialsProvider({
       credentials: {
         email: {
@@ -34,6 +40,7 @@ export const config = {
         return null;
       },
     }),
+
   ],
   // custom pages for sign in and register
   pages: {
@@ -67,7 +74,7 @@ export const config = {
       return session;
     },
   },
-  secret: process.env.NEXT_PUBLIC_AUTH_SECRET,
+  secret: process.env.AUTH_SECRET,
 };
 
 export const {
