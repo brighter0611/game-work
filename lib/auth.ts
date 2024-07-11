@@ -22,7 +22,7 @@ export const config = {
           type: 'password',
         },
       },
-      async authorize(credentials) {
+       authorize: async(credentials) => {
         await dbConnect();
         if (credentials === null) return null;
 
